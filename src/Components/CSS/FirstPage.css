@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+.html{
+    font-size: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Set a high z-index to ensure the navbar is above other content */
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+    background-color: rgba(90, 59, 169, 0.901); 
+  
+}
+
+#logo{
+    height: 2.5rem;
+    margin-left: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navlist{
+    gap: 2rem;
+    word-spacing: 2rem;
+    margin-right: 2rem;
+}
+.navItem{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.backImg{
+    height: 35rem;
+    background-image: url("/src/Components/FPImages/back2img.jpg");
+    background-position: center;
+    background-color: #2012a279;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%;
+     */
+
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 13rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    flex-direction: column;
+}
+.Heading h1{
+  margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 800;
+    line-height: 1.2;
+
+}
+.Heading span{
+  font-weight: 550;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#introvideo{
+    font-size: 1.2rem;
+    font-weight: 500;
+   height: auto;
+   border-radius: 0.5rem;
+    width: auto;
+    padding: 0.7rem 1rem;
+    background: none;
+    color: white;
+    border: 0.1rem solid rgb(203, 190, 190);
+   
+}
+#introvideo:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    /* color: rgb(83, 9, 114);
+     */
+   
+}
+#first{
+    display: flex;
+    margin: 3rem auto;
+    /* padding-top: 3rem; */
+    width: 75rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.303);
+    border-radius: 0.5rem;
+
+}
+.rad-studio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 5rem;
+    gap: 2rem;
+}
+#studio{
+    height: 30rem;
+    width: 40rem;
+}
+.rad-discript h1{
+    color: rgba(76, 9, 117, 0.807);
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+.disc{
+    font-size: 1.1rem;
+    color: rgb(21, 2, 2);
+    line-height: 2rem;
+    padding: 0.5rem 0rem;
+
+}
+ .system{
+    font-size: 1.1rem;
+    color: black;
+ }
+
+ .f-btn{
+    background-color: rgb(85, 30, 136);
+    padding: 0.5rem 2rem;
+    font-weight: 550;
+    border: none;
+    font-size: 1.3rem;
+ }
+ .f-btn:hover{
+    background-color: rgb(85, 30, 136);
+ }
+ #second{
+    width: 37rem;
+    height: 20rem;
+    
+
+ }
+ .why-rad{
+    gap: 1rem;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+ }
+ .objective{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+ }
+ 
+ .objective h5{
+    margin-top: 4rem;
+    font-size: 2rem;
+
+ }
+ .devlop{
+    text-align: center;
+ }
+ .target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    
+ }
+ #third{
+    width: 25rem;
+ }
+ .data{
+    color: rgb(92, 92, 235);
+    font-size: 3rem;
+ }
+ .convert{
+    height: auto;
+    width: auto;
+    padding: 1rem 3rem;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 0.1rem solid rgb(251, 244, 244);
+    box-shadow: 0px 10px -5px 0px rgb(189, 186, 186);
+    margin-bottom: 0.5rem;
+
+ }
+ .convert span{
+    font-size: 1.2rem;
+ }
+ .container3{
+    background-color:#F1C40F;
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+   
+ }
+ .container3 h2 {
+    font-size: 2.5rem;
+    font-weight: 530;
+    text-align: center;
+    /* padding-top: 2rem; */
+ }
+ .container3 span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+ }
+ .seven-boxes{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+ }
+
+ .php-box{
+    height: 16rem;
+    width: 25rem;
+    padding: 1rem 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    flex-direction: column;
+ }
+ .php-box:hover{
+   background-color: aliceblue;
+ }
+ .php-box1:hover{
+   background-color: aliceblue;
+ }
+ .php-box1{
+   height: auto;
+   width: 25rem;
+   padding: 1rem 1rem;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+   border-radius: 0.3rem;
+   text-align: center;
+   flex-direction: column;
+}
+ #image5{
+    width: 5rem;
+    height: 4rem;
+ }
+ .php-box p{
+   color: rgba(0, 0, 0, 0.511);
+   word-spacing: 0.1rem;
+ }
+ /* .down-btn{
+    margin: 0rem 0.5rem;
+    padding: 0.3rem 2rem;
+    border-radius: 0.3rem;
+ }
+ .down-btn:hover{
+    background-color: rgb(50, 50, 208);
+ }
+ .buy-btn{
+    background-color:#FFC107;
+    color: black;
+    border: none;
+    margin: 0rem 0.5rem;
+    padding: 0.3rem 2rem;
+    border-radius: 0.3rem;
+ }
+ .buy-btn:hover{
+    background-color: #FFC107;
+    color: black;
+ } */
+ .container4{
+   height: auto;
+   width: 100%;
+   padding: 2rem;
+ }
+ .container4 h1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.8rem;
+   font-weight: 550;
+   
+ }
+ .container4 span {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.1rem;
+   color: rgba(0, 0, 0, 0.556);
+ }
+  .work-boxes{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-top: 2rem;
+   padding-bottom: 2rem;
+   width: 72.2rem;
+   /* background-color: aquamarine; */
+   border: 0.1rem solid rgba(0, 0, 0, 0.147);
+ } 
+ .navs{
+   height: auto;
+   width: 18rem;
+   padding: 1rem;
+   background-color: white;
+   flex-direction: column;
+   display: flex;
+   border: none;
+   border-radius: 0.3rem;
+   justify-content: center;
+   align-items: center;
+ }
+ .navss{
+   height: auto;
+   width: 18rem;
+   padding: 1rem;
+   background-color: white;
+   flex-direction: column;
+   display: flex;
+   border: 0.1rem solid rgba(0, 0, 0, 0.107);
+   border-radius: 0.3rem;
+   justify-content: center;
+   align-items: center;
+ }
+ .navs:hover{
+   border: 0.1rem solid rgba(0, 0, 0, 0.107);
+   background-color: whitesmoke;
+ }
+ .navss:hover{
+   border: 0.1rem solid rgba(0, 0, 0, 0.107);
+   background-color: whitesmoke;
+ }
+ 
+ .navs h1{
+   font-size: 1.3rem;
+   color: rgba(0, 0, 0, 0.816);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   word-spacing: 0.2rem;
+ }
+ .navss h1{
+   font-size: 1.3rem;
+   color: rgba(0, 0, 0, 0.816);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   word-spacing: 0.2rem;
+ }
+ .tab-content{
+   height: auto;
+   width: auto;
+   /* background-color: plum; */
+   gap: 1rem;
+   margin-top: -1rem;
+   padding-top: 2rem;
+
+ }
+ .tab-content h1{
+   font-weight: 550;
+   
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ #data-img{
+   margin-top: 2rem;
+ }
+ .plugs{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   margin-top: 0.5rem;
+ }
+ .plugins{
+   width: auto;
+   height: auto;
+   padding: 0.3rem;
+   border-radius: 0.3rem;
+   background-color: #F1C40F;
+   gap: 1rem;
+ }
+ .plugins span{
+   color: rgba(0, 0, 0, 0.842);
+   font-size: 1rem;
+ }
+ #data-img{
+   
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+   
+ }
+
+ #note-img{
+   width: 70rem;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+  
+   
+ }
+ #comp-img{
+   width: 70rem;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+  
+ }
+ .container5{
+   width: 100%;
+   height: auto;
+   background-color: #13133D;
+   margin: 0rem auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 1rem;
+   color: white;
+   padding: 2rem;
+   gap: 2rem;
+ }
+ .f-box{
+   height: auto;
+   width: 10rem;
+   border-radius: 0.3rem;
+   padding: 0.5rem;
+   color: white;
+   background-color:#0D6EFD;
+   text-align: center;
+
+ }
+ .f-info p{
+   word-spacing: 0.3rem;
+   font-size: 1.1rem;
+   color:gainsboro;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .container5 b{
+   color: white;
+   font-size: 1.8rem;
+   font-weight: 800;
+ }
+ .ft-box{
+   height: auto;
+   width: 25rem;
+   margin: auto;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 1rem;
+ }
+ .ic-img{
+   height: 6rem;
+   width: 6rem;
+   background-color: #483D8B;
+   border-radius: 50%;
+   text-align: center;
+ }
+ .f-info h1{
+   font-size: 1.3rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .f-info b{
+   font-size: 0.8rem;
+ }
+ .bulb{
+   font-size: 3rem;
+   margin: auto;
+   justify-content: baseline;
+   align-items: baseline;
+   margin-top: 3rem;
+
+ }
+ .feature-boxes{
+   display: flex;
+   gap: 2rem;
+ }
+ .f-btn{
+   background-color: #F1C40F;
+   border-radius: 0.3rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ }
+ .f-btn:hover{
+   background-color: #F1C40F;
+ }
+ .container6{
+   height: auto;
+   padding: 2rem;
+   width: 100%;
+   background-color: whitesmoke;
+   margin: auto;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .container6 b{
+   font-size: 2rem;
+ }
+ .container6 span{
+   font-size: 1.4rem;
+   color: rgba(0, 0, 0, 0.666);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .tech-boxes{
+   height:auto;
+   width: auto;
+   background-color:white;
+   border: 0.1rem solid rgba(0, 0, 0, 0.068);
+   border-radius: 0.3rem;
+   padding: 0rem 2rem;
+   display: flex;
+   padding-top: 2rem;
+   justify-content: center;
+   margin: auto;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 2rem;
+   /* gap: 2rem; */
+ }
+ .tech-logo{
+   margin-top: 2rem;
+   
+ }
+ #tech{
+   height: 8rem;
+   width: 8rem;
+   margin: 1rem 1.5rem;
+   cursor: pointer;
+ }
+ .flex{
+   display: flex;
+   margin: auto;
+   gap: 1rem;
+ }
+ .prj h1{
+   font-size: 1.5rem;
+   margin-top: 2rem;
+   text-align: center;
+ }
+ .prj b{
+   font-size: 1.4rem;
+ }
+ .container7{
+   width: 100%;
+   height: auto;
+   padding: 2rem;
+   background-color: azure;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+ }
+ .container7 b{
+   color: black;
+   font-size: 2rem;
+   font-weight: bolder;
+ }
+ .container7 p{
+   font-size: 1.3rem;
+   color: rgba(0, 0, 0, 0.573);
+ }
+
+ #fm{
+  color: rgb(94, 231, 36);
+  font-weight: 550;
+ }
+ .wp{
+  color: rgba(0, 0, 0, 0.662);
+  font-size: 1.1rem;
+ }
+ .sw-img{
+  
+ }
+ #sw{
+  width: 16rem;
+  height: 6rem;
+  margin: 0rem 5rem;
+  margin-top: 6rem;
+ }
+ #app{
+  width: 10rem;
+  height: 6rem;
+  margin: 0rem 5rem;
+  margin-top: 6rem;
+ }
+ .ad{
+  margin-top: 4rem;
+  font-size: 1.8rem;
+ }
+ .qul{
+  color: #0D6EFD;
+  font-weight: 400;
+
+ }
+ .awd-img{
+  
+ }
+ #awd{
+  height: 7rem;
+  width: 15rem;
+  margin: 0rem 2rem;
+  margin-top: 0rem;
+ }
+ .container8{
+  width: 100%;
+  height: auto;
+  background-color: #483D8B;
+  display: flex;
+  margin: auto;
+  padding: 3rem 0rem;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  padding-right: 2rem;
+ }
+ .community{
+  display: flex;
+  /* margin: auto; */
+  gap: 2rem;
+  margin-left:rem;
+ }
+ #mike{
+  height: 5rem;
+  width: 5rem;
+ }
+ .join-cm{
+  flex-direction: column;
+ }
+ .join-cm h1{
+  font-size: 2.1rem;
+  color: white;
+ }
+ .j-btn{
+  background-color:#483D8B;
+  width: auto;
+  height: auto;
+  color: white;
+  border-radius: 0.3rem;
+  border: 0.1rem solid white;
+  margin: 0.2rem 0.2rem;
+  padding: 0.1rem 0.2rem;
+ }
+ 
+ .news h1{
+  font-size: 2.1rem;
+  color: white;
+ }
+ .news span{
+  font-size: 1rem;
+  color: white;
+ }
+ #email{
+  width: 25rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  border: none;
+  margin-top: 1rem;
+ }
+ #scribe{
+  width: auto;
+  height: auto;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.3rem;
+  background-color: #483D8B;
+  color: white;
+  margin-left: 1rem;
+  border: 0.1rem solid white;
+
+ }
+ #scribe:hover{
+  background-color: white;
+  color: black;
+ }
+ .container9{
+  height: auto;
+  width: 100%;
+  background-color: #13133D;
+  padding: 2rem;
+ }
+ .menues{
+  display: flex;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+ }
+ .info{
+  display: flex;
+  flex-direction: column;
+ }
+ .info b{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+ }
+ .info span{
+  font-size: 1rem;
+  margin-top: 1rem;
+  color:#afb3ba;
+ }
+ .resource{
+  display: flex;
+  flex-direction: column;
+  margin-top: -2rem;
+ }
+ .resource b{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+ }
+ .resource span{
+  font-size: 1rem;
+  margin-top: 1rem;
+  color:#afb3ba;
+ }
+ .platform{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+ }
+ .platform b{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+ }
+ .platform span{
+  font-size: 1rem;
+  margin-top: 1rem;
+  color:#afb3ba;
+ }
+ .reserve{
+  color:#7C8087;
+  margin-left: 5rem;
+  margin-top: 2rem
+ }
+
+ @media (min-width:769px) and (max-width:1023px){
+  
+  .backImg{
+    background-size:cover;
+    width: 100%;
+  }
+  header{
+    width:100%;
+  
+  }
+  #first {
+    width: 48rem;
+}
+#second{
+  margin: auto;
+  display: flex;
+  width: 100% !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.rad-discript h1{
+  text-align: center;
+}
+.rad-studio {
+  flex-direction: column;
+  margin: 1rem 2rem;
+  gap: 1rem;
+  text-align: center;
+}
+.f-btn {
+  margin-top: 0rem;
+  font-size: 2rem;
+}
+.why-rad {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-direction: column-reverse;
+  /* margin-left: 2rem; */
+  text-align: center;
+  
+}
+.convert {
+  padding: 1rem 1rem;
+  background-color: white;
+}
+#third {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+}
+.convert span {
+  font-size: 1rem;
+}
+.container3 span {
+  font-size: 1.2rem;
+}
+.php-box {
+  height: 21rem;
+}
+.navss {
+  width: 12.5rem;
+}
+.navs {
+  width: 11rem;
+}
+.work-boxes {
+  width: 46rem;
+  margin-left: -1.5rem;
+}
+#data-img {
+  width: 45rem;
+}
+.plugins span {
+  font-size: 0.6rem;
+}
+#note-img {
+  width: 44rem;
+}
+#comp-img {
+  width: 44rem;
+}
+.container5 b {
+  text-align: center;
+}
+.feature-boxes {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.ic-img {
+  height: 4rem;
+  width: 4rem;
+}
+.flex-box{
+  display: flex;
+}
+.ff-box2{
+  display: flex;
+  flex-direction: column;
+}
+.ff-box{
+  display: flex;
+}
+.ft-box {
+  height: auto;
+  width: 23rem;
+}
+.f-bt{
+  height:6rem;
+  text-align: center;
+  width: auto;
+  padding: 0rem 8rem;
+  margin-top: 2rem;
+}
+p {
+  font-size: 1.1rem;
+  color: gainsboro;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h1, h1 {
+  font-size: calc(0.600rem + 1.5vw);
+}
+.f-info h1 {
+  font-size: 1.1rem;
+}
+.bulb {
+  margin-top: 2rem;
+}
+.bl{
+  height: 2rem;
+  width: 2rem;
+}
+.container6 span {
+  font-size: 1.4rem;
+  text-align: center;
+}
+.container6 b {
+  font-size: 1.5rem;
+}
+.tech-boxes {
+  padding: 0rem 0.5rem;
+
+}
+#tech {
+  margin: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 7rem;
+  margin: 1rem 1rem;
+  padding: 1rem 0rem;
+}
+.bn-btn{
+  margin-top: 2rem;
+}
+#sw {
+  width: 11rem;
+  height: 5rem;
+  margin: 0rem 1rem;
+  margin-top: 4rem;
+}
+#app {
+  width: 11rem;
+  height: 5rem;
+  margin: 0rem 1rem;
+  margin-top: 4rem;
+}
+.awd-img {
+  display: flex;
+}
+#awd {
+  height: 7rem;
+  width: 12rem;
+  margin: 0rem 2rem;
+  margin-top: 2rem;
+}
+.container8 {
+  flex-direction: column;
+  padding: 2rem 0rem;
+  gap: 3rem;
+  padding-right: 0;
+}
+.news{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#scribe {
+  font-size: 1.1rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+.menues {
+  margin: auto;
+  gap: 3rem;
+  text-align: center;
+}
+.info b {
+  font-size: 1.1rem;
+}
+.resource b {
+  font-size: 1.1rem;
+}
+.platform b {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.reserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  margin-left: 0rem;
+  margin-top: 3rem;
+  margin-bottom: -1.5rem;
+}
+.reserve span{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+} 
+  
